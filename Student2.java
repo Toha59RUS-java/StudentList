@@ -1,4 +1,4 @@
-package antush.com.lesson1;
+package antush.com.lesson1.StudentList;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,14 +10,14 @@ import java.util.List;
  * - Список оценок за учебу
  */
 
-public class Student {
+public class Student2 {
 
     private String firstName;
     private String lastName;
     private int numberCourse;
     private List<Integer> grades = new ArrayList<>();
 
-    public Student(String firstName, String lastName, int numberCourse, List<Integer> grades) {
+    public Student2(String firstName, String lastName, int numberCourse, List<Integer> grades) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.numberCourse = numberCourse;
@@ -46,10 +46,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Student2{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", numberCours=" + numberCourse +
+                ", numberCourse=" + numberCourse +
                 ", average=" + grades +
                 '}';
     }
